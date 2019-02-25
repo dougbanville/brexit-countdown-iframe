@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.brexit-countdown {
+  width: 100%;
+  background-image: url("https://www.rte.ie/doug_public/img/Flag-Brexit-Countdown-Vectord.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.brexit-clock {
+  margin-top: 0em;
+  width: 320px;
+  height: 60px;
+  background-color: white;
+  padding: 1px;
+  display: block;
+  margin: 0 auto;
+}
+.flip-clock-small-wrapper .flip-clock-divider .flip-clock-label {
+  position: absolute;
+  top: 4em;
+  right: -48px;
+  color: black;
+  text-shadow: none;
+}
